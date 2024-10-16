@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "custom-field-order",
+    "version": "1.0.0",
+    "name": "Custom Field Order",
+    "description": "Control the display order of custom fields in work items",
+    "publisher": "sansindhu0701",
+    "targets": [
+      {
+        "id": "Microsoft.VisualStudio.Services"
+      }
+    ],
+    "categories": [
+      "Azure Boards"
+    ],
+    "contributions": [
+      {
+        "id": "custom-field-order-form",
+        "type": "ms.vss-work-web.work-item-form",
+        "targets": [
+          "ms.vss-work-web.work-item-form"
+        ],
+        "properties": {
+          "name": "Custom Field Order",
+          "uri": "dist/index.html"
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "dist",
+        "addressable": true
+      }
+    ]
+  }
+  
